@@ -6,19 +6,19 @@
         <template #item-text><div>首页</div></template>
       </tab-bar-item>
       <tab-bar-item path="/category" activeColor="#d63823">
-        <template #item-icon><img slot="item-icon" src="../assets/img/category.svg" alt=""></template>
-        <template #item-icon-active><img slot="item-icon-active" src="../assets/img/category-active.svg" alt=""></template>
-        <template #item-text><div slot="item-text">分类</div></template>
+        <template #item-icon><img src="../assets/img/category.svg" alt=""></template>
+        <template #item-icon-active><img src="../assets/img/category-active.svg" alt=""></template>
+        <template #item-text><div>分类</div></template>
       </tab-bar-item>
       <tab-bar-item path="/cart" activeColor="#d63823">
-        <template #item-icon><img slot="item-icon" src="../assets/img/shoppingcar.svg" alt=""></template>
-        <template #item-icon-active><img slot="item-icon-active" src="../assets/img/shoppingcar-active.svg" alt=""></template>
-        <template #item-text><div slot="item-text">购物车</div></template>
+        <template #item-icon><img src="../assets/img/shoppingcar.svg" alt=""></template>
+        <template #item-icon-active><img src="../assets/img/shoppingcar-active.svg" alt=""></template>
+        <template #item-text><div>购物车</div></template>
       </tab-bar-item>
       <tab-bar-item path="/profile" activeColor="#d63823">
-        <template #item-icon><img slot="item-icon" src="../assets/img/usercenter.svg" alt=""></template>
-        <template #item-icon-active><img slot="item-icon-active" src="../assets/img/usercenter-active.svg" alt=""></template>
-        <template #item-text><div slot="item-text">我的</div></template>
+        <template #item-icon><img src="../assets/img/usercenter.svg" alt=""></template>
+        <template #item-icon-active><img src="../assets/img/usercenter-active.svg" alt=""></template>
+        <template #item-text><div>我的</div></template>
       </tab-bar-item>
     </tab-bar>
 </template>
